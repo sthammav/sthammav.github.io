@@ -1,4 +1,17 @@
-- name: Home
-  link: /
-- name: Overview
-  link: /docs/overview.md
+# documentation links
+docs:
+ - title: "Overview"
+   children:
+    - title: "Introduction - What is Keep?"
+      url: /intro.md
+    - title: "Architecture Overview"
+      url: /architecture.md
+    - title: "What's New?"
+      url: /new_feature.md
+
+ - title: "Installation"
+   children:
+    - title: "Windows"
+      url: /wins.md
+    - title: "Docker"
+      url: /docker.md
